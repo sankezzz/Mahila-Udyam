@@ -22,7 +22,7 @@ export function renderProductPage(shop, product) {
             <div class="mb-8">
               <p class="text-sm text-neutral-500 mb-2">From ${shop.name}</p>
               <h1 class="text-3xl font-medium text-neutral-900 mb-4">${product.name}</h1>
-              <p class="text-2xl font-light text-neutral-900 mb-6">$${product.price}</p>
+              <p class="text-2xl font-light text-neutral-900 mb-6">${product.price}</p>
               <p class="text-neutral-600">${product.description || 'Handcrafted with care and attention to detail. This piece represents the quality and craftsmanship you can expect from our shop.'}</p>
             </div>
 

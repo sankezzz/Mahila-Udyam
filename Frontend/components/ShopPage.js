@@ -39,7 +39,7 @@ export function renderShopPage(shop) {
                   </div>
                   <div class="p-4">
                     <h3 class="font-medium text-neutral-900">${product.name}</h3>
-                    <p class="text-neutral-500">$${product.price}</p>
+                    <p class="text-neutral-500">${product.price}</p>
                   </div>
                 </div>
               </a>

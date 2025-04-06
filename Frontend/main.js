@@ -7,8 +7,8 @@ import { renderProductPage } from './components/ProductPage.js'
 const shops = [
   {
     id: 1,
-    name: "Artisan Crafts by Sarah",
-    owner: "Sarah Johnson",
+    name: "Vinetta's Articraft ",
+    owner: "Vinetta Patil",
     description: "Handmade jewelry and accessories crafted with love",
     image: "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=600",
     products: [
@@ -31,7 +31,7 @@ const shops = [
   {
     id: 2,
     name: "Green Thumb Gardens",
-    owner: "Maria Garcia",
+    owner: "Sheela Sharma",
     description: "Sustainable plant shop featuring rare houseplants",
     image: "https://images.unsplash.com/photo-1485955900006-10f4d324d411?q=80&w=600",
     products: [
@@ -54,7 +54,7 @@ const shops = [
   {
     id: 3,
     name: "Sweet Treats Bakery",
-    owner: "Emily Chen",
+    owner: "Shalini Patil",
     description: "Artisanal baked goods made from family recipes",
     image: "https://images.unsplash.com/photo-1517433670267-08bbd4be890f?q=80&w=600",
     products: [
@@ -83,7 +83,7 @@ const renderHomePage = () => {
     <div class="min-h-screen bg-[#f5f3f0]">
       <nav class="fixed w-full bg-white/80 backdrop-blur-sm z-50 border-b border-neutral-200">
         <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
-          <span class="text-lg font-medium">marketplace</span>
+          <span class="text-lg font-Large">Mahila Udyam</span>
           <a href="#shops" class="text-sm hover:text-neutral-500 transition-colors">Explore</a>
         </div>
       </nav>

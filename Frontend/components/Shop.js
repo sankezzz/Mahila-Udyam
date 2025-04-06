@@ -29,7 +29,7 @@ export function renderShop(shop) {
                     />
                   </div>
                   <h5 class="text-sm font-medium text-neutral-900">${product.name}</h5>
-                  <p class="text-sm text-neutral-500">$${product.price}</p>
+                  <p class="text-sm text-neutral-500">${product.price}</p>
                 </div>
               `).join('')}
             </div>
